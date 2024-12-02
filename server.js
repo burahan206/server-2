@@ -6,7 +6,7 @@ import "dotenv/config";
 // Step 2
 import connectDB from "./Config/mongodb.js";
 import connectCloudinary from "./Config/cloudinary.js";
-import userRouter from "./routes/userRoute.js";
+import userRouter from "./Routes/userRoute.js";
 import productRouter from "./routes/productRoute.js";
 import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
@@ -24,7 +24,7 @@ app.use(cors());
 
 const allowedOrigins = [
   "https://artnakkk-frontend-admin.vercel.app",
-  "http://localhost:5175", // For local development
+  "http://localhost:5174", // For local development
   "http://localhost:5176", // For local development
 ];
 
