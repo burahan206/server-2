@@ -7,9 +7,9 @@ import "dotenv/config";
 import connectDB from "./Config/mongodb.js";
 import connectCloudinary from "./Config/cloudinary.js";
 import userRouter from "./Routes/userRoute.js";
-import productRouter from "./routes/productRoute.js";
-import cartRouter from "./routes/cartRoute.js";
-import orderRouter from "./routes/orderRoute.js";
+import productRouter from "./Routes/productRoute.js";
+import cartRouter from "./Routes/cartRoute.js";
+import orderRouter from "./Routes/orderRoute.js";
 
 // App Config
 const app = express();
