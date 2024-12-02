@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
-  "front-end-admin-kappa.vercel.app",
+  "https://front-end-admin-kappa.vercel.app",
   "http://localhost:5174", // For local development
   "http://localhost:5176", // For local development
 ];
